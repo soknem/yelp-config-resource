@@ -13,4 +13,4 @@ spring:
         - id: business-route
           uri: lb://business
           predicates:
-            - Path=/api/v1/business/**
+            - Path=/api/v1/categories/**
