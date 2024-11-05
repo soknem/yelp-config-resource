@@ -14,3 +14,7 @@ spring:
           uri: lb://business
           predicates:
             - Path=/api/v1/categories/**
+
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+server:
+  port: 8085
