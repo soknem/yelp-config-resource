@@ -1,2 +1,2 @@
-my-config:
-    first-config: hi
+server:
+  port: 8888
