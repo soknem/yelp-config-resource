@@ -1,2 +1,2 @@
-my-config:
-  first-config: this is profile dev changed
+server:
+  port: 8888
