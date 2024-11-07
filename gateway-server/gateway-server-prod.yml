@@ -13,5 +13,4 @@ spring:
           uri: http://localhost:3000
           predicates:
             - Path=/**
-server:
-  port: 8085
+

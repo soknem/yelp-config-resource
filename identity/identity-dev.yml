@@ -1,8 +1,4 @@
 spring:
-  application:
-    name: identity
-  profiles:
-    active: dev
   datasource:
     username: soknem
     password: 123
