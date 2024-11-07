@@ -14,3 +14,7 @@ spring:
           uri: http://localhost:3000
           predicates:
             - Path=/**
+        - id: identity-route
+          uri: lb://identity
+          predicates:
+            - Path=**
