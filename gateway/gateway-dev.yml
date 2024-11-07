@@ -1,9 +1,4 @@
 spring:
-  config:
-    import: "optional:configserver:"
-  cloud:
-    config:
-      uri: http://localhost:8888
     gateway:
       discovery:
         locator:
@@ -14,12 +9,9 @@ spring:
           uri: lb://business
           predicates:
             - Path=/api/v1/categories/**
-              routes:
         - id: nextjs
           uri: http://localhost:3000
           predicates:
             - Path=/**
-
-        automaticTransitionFromOpenToHalfOpenEnabled: true
 server:
   port: 8085
