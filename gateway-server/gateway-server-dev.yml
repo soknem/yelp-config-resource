@@ -17,4 +17,4 @@ spring:
         - id: identity-route
           uri: lb://identity
           predicates:
-            - Path=**
+            - Path=/**
