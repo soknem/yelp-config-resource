@@ -2,10 +2,8 @@ client-security-matchers: >
   /login/**,
   /oauth2/**,
   /logout/**,
-  /en/**,
   /auth/**,
-  /business/**,
-  /profile/**
+  /categories/**,
 
 client-permit-matchers: >
   /login/**,
@@ -17,8 +15,7 @@ client-permit-matchers: >
   /info/**,
   /health/**,
   /prometheus/**,
-  /business/**,
-  /profile/**
+  /categories/**,
 
 spring:
   security:
