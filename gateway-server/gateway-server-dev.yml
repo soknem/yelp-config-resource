@@ -33,7 +33,7 @@ spring:
             - TokenRelay=
             - RewritePath=/categories/(?<segment>.*),/$\{segment}
         - id: nextjs
-          uri: http://localhost:3000
+          uri: http://127.0.0.1:3000
           predicates:
             - Path=/**
         - id: identity-route
