@@ -22,11 +22,11 @@ spring:
     oauth2:
       client:
         provider:
-          yelp:
+          nextjs:
             issuer-uri: http://localhost:8080
         registration:
-          yelp:
-            provider: yelp
+          nextjs:
+            provider: nextjs
             client-id: nextjs
             client-secret: nextjs123
             authorization-grant-type:
