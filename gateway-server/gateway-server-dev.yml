@@ -31,7 +31,7 @@ spring:
           yelp:
             provider: yelp
             client-id: nextjs
-            client-secret: nextjs
+            client-secret: nextjs123
             authorization-grant-type:
               - authorization_code
             scope: openid, profile, email
