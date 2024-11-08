@@ -12,7 +12,6 @@ client-permit-matchers: >
   /oauth2/**,
   /en/**,
   /auth/**,
-  /contactSupport/**,
   /error/**,
   /actuator/**,
   /info/**,
