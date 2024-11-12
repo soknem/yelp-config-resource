@@ -32,10 +32,7 @@ spring:
           filters:
             - TokenRelay=
             - RewritePath=/categories/(?<segment>.*),/$\{segment}
-        - id: nextjs
-          uri: http://localhost:3000
-          predicates:
-            - Path=/**
+
         - id: identity-route
           uri: lb://identity
           predicates:
@@ -43,3 +40,8 @@ spring:
           filters:
             - TokenRelay=
             - RewritePath=/identity/(?<segment>.*),/$\{segment}
+
+        - id: nextjs
+          uri: http://localhost:3000
+          predicates:
+            - Path=/**
